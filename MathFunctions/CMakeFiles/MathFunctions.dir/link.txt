@@ -1,0 +1,1 @@
+/usr/bin/c++   -dynamiclib -Wl,-headerpad_max_install_names   -o libMathFunctions.dylib -install_name /Users/andreabortolossi/Desktop/CODICI/CMAKE/MathFunctions/libMathFunctions.dylib CMakeFiles/MathFunctions.dir/src/mysqrt.cpp.o  -L/Users/andreabortolossi/Desktop/CODICI/CMAKE/MathFunctions} 

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/andreabortolossi/Desktop/CODICI/CMAKE/MathFunctions/include/MathFunctions.hpp
+stdlib.h
+-
+math.h
+-
+iostream
+-
+
+/Users/andreabortolossi/Desktop/CODICI/CMAKE/SquareRoot.cpp
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+iostream
+-
+TutorialConfig.h
+/Users/andreabortolossi/Desktop/CODICI/CMAKE/TutorialConfig.h
+MathFunctions/include/MathFunctions.hpp
+/Users/andreabortolossi/Desktop/CODICI/CMAKE/MathFunctions/include/MathFunctions.hpp
+
+/Users/andreabortolossi/Desktop/CODICI/CMAKE/TutorialConfig.h
+
