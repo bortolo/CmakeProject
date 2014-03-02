@@ -50,7 +50,7 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/andreabortolossi/Desktop/CODICI/CMAKE
+CMAKE_SOURCE_DIR = /Users/andreabortolossi/Desktop/CODICI/CMAKE/main
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/andreabortolossi/Desktop/CODICI/CMAKE

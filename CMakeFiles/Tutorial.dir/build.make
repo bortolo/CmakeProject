@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/andreabortolossi/Desktop/CODICI/CMAKE
+CMAKE_SOURCE_DIR = /Users/andreabortolossi/Desktop/CODICI/CMAKE/main
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/andreabortolossi/Desktop/CODICI/CMAKE
@@ -53,18 +53,18 @@ include CMakeFiles/Tutorial.dir/progress.make
 include CMakeFiles/Tutorial.dir/flags.make
 
 CMakeFiles/Tutorial.dir/SquareRoot.cpp.o: CMakeFiles/Tutorial.dir/flags.make
-CMakeFiles/Tutorial.dir/SquareRoot.cpp.o: SquareRoot.cpp
+CMakeFiles/Tutorial.dir/SquareRoot.cpp.o: main/SquareRoot.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/andreabortolossi/Desktop/CODICI/CMAKE/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Tutorial.dir/SquareRoot.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Tutorial.dir/SquareRoot.cpp.o -c /Users/andreabortolossi/Desktop/CODICI/CMAKE/SquareRoot.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Tutorial.dir/SquareRoot.cpp.o -c /Users/andreabortolossi/Desktop/CODICI/CMAKE/main/SquareRoot.cpp
 
 CMakeFiles/Tutorial.dir/SquareRoot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tutorial.dir/SquareRoot.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/andreabortolossi/Desktop/CODICI/CMAKE/SquareRoot.cpp > CMakeFiles/Tutorial.dir/SquareRoot.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/andreabortolossi/Desktop/CODICI/CMAKE/main/SquareRoot.cpp > CMakeFiles/Tutorial.dir/SquareRoot.cpp.i
 
 CMakeFiles/Tutorial.dir/SquareRoot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tutorial.dir/SquareRoot.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/andreabortolossi/Desktop/CODICI/CMAKE/SquareRoot.cpp -o CMakeFiles/Tutorial.dir/SquareRoot.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/andreabortolossi/Desktop/CODICI/CMAKE/main/SquareRoot.cpp -o CMakeFiles/Tutorial.dir/SquareRoot.cpp.s
 
 CMakeFiles/Tutorial.dir/SquareRoot.cpp.o.requires:
 .PHONY : CMakeFiles/Tutorial.dir/SquareRoot.cpp.o.requires
@@ -100,6 +100,6 @@ CMakeFiles/Tutorial.dir/clean:
 .PHONY : CMakeFiles/Tutorial.dir/clean
 
 CMakeFiles/Tutorial.dir/depend:
-	cd /Users/andreabortolossi/Desktop/CODICI/CMAKE && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/andreabortolossi/Desktop/CODICI/CMAKE /Users/andreabortolossi/Desktop/CODICI/CMAKE /Users/andreabortolossi/Desktop/CODICI/CMAKE /Users/andreabortolossi/Desktop/CODICI/CMAKE /Users/andreabortolossi/Desktop/CODICI/CMAKE/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/andreabortolossi/Desktop/CODICI/CMAKE && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/andreabortolossi/Desktop/CODICI/CMAKE/main /Users/andreabortolossi/Desktop/CODICI/CMAKE/main /Users/andreabortolossi/Desktop/CODICI/CMAKE /Users/andreabortolossi/Desktop/CODICI/CMAKE /Users/andreabortolossi/Desktop/CODICI/CMAKE/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Tutorial.dir/depend
 

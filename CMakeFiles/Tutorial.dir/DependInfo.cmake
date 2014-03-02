@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/andreabortolossi/Desktop/CODICI/CMAKE/SquareRoot.cpp" "/Users/andreabortolossi/Desktop/CODICI/CMAKE/CMakeFiles/Tutorial.dir/SquareRoot.cpp.o"
+  "/Users/andreabortolossi/Desktop/CODICI/CMAKE/main/SquareRoot.cpp" "/Users/andreabortolossi/Desktop/CODICI/CMAKE/CMakeFiles/Tutorial.dir/SquareRoot.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "Clang")
 

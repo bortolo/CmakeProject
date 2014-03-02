@@ -2,4 +2,4 @@
 #define Tutorial_VERSION_MAJOR 5
 #define Tutorial_VERSION_MINOR 7
 #define USE_MYMATH
-/* #undef USE_SHARED */
+#define USE_SHARED

@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /Users/andreabortolossi/Desktop/CODICI/CMAKE
+# Source directory: /Users/andreabortolossi/Desktop/CODICI/CMAKE/main
 # Build directory: /Users/andreabortolossi/Desktop/CODICI/CMAKE
 # 
 # This file includes the relevent testing commands required for 
